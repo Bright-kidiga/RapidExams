@@ -1,0 +1,278 @@
+/* CONVERTS ALL IMAGES IN ARTICLE 2 (HOMEPAGE) TO BE RESPONSIVE */
+#div_articleid_2 img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #content_area table {
+    table-layout: fixed;
+  }
+  #content_area img[src="v/vspfiles/templates/qeretail/images/clear1x1.gif"] {display:none;}
+  
+  #content_area br {display:none;}
+  
+  #div_articleid_2 img[src$="/FeaturedProducts.gif"],
+  #div_articleid_2 img[src$="/clear1x1.gif"],
+  #div_articleid_2 .v65-productDisplay img {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    max-width: 100%;
+    height: auto;
+    min-width: 25px;
+  }
+  
+  #div_articleid_2 img[src="/clearfix1x1.gif"] {
+     display: inline;
+     width: auto;
+     height: auto;
+  }
+  
+  /* HOMEPAGE FEATURED PRODUCTS */
+  .v65-productDisplay .productnamecolor.colors_productname, a.productnamecolor.colors_productname {
+    color: #505050;
+    font-family: 'Ciutadella-Regular';	
+    font-size:14px;
+    display:inline-block;
+  }
+  
+  .v65-productDisplay .productnamecolor.colors_productname:hover, a.productnamecolor.colors_productname:hover {
+    color: #e9616e;
+    text-decoration: none;
+  }
+  table.v65-productDisplay font.text.colors_text, table.v65-productDisplay font.text.colors_text b {
+    color: #333;
+   font-family: 'Ciutadella-Regular';	
+   display:inline-block;
+   font-size:18px;
+  }
+  .pricecolor.colors_productprice {
+      display: inline-block;
+  }
+  
+  /* FEATURED PRODUCTS */
+  #content_area .v65-productDisplay img[src$="nophoto.gif"],
+  #content_area .v65-productDisplay img[src*="/v/vspfiles/photos/"] {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 0 !important;
+  }
+  
+  /* Product Title */
+  table.v65-productDisplay .productnamecolor {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  /* List Price */
+  table.v65-productDisplay .product_listprice,
+  table.v65-productDisplay .product_listprice b {
+  font-size: 12px;
+  font-weight: normal;
+  }
+  
+  /* Our Price */
+  table.v65-productDisplay .product_productprice,
+  table.v65-productDisplay .product_productprice b {
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration:line-through;
+  margin-right:10px;
+  color:#969696
+  }
+  
+  /* Sale Price */
+  table.v65-productDisplay .product_saleprice,
+  table.v65-productDisplay .product_saleprice b {
+  font-size: 18px;
+  font-weight: normal;
+  color: #00aada;
+  }
+  
+  /* Deal Price */
+  table.v65-productDisplay .product_dealprice {
+  font-size: 12px;  
+  font-weight: normal;
+  color: #e74f5d;
+  }
+  
+  @media (max-width:480px){
+    /* Product Title */
+    table.v65-productDisplay .productnamecolor {
+        font-size: 12px;
+    }
+  
+    /* List Price */
+    table.v65-productDisplay .product_listprice,
+    table.v65-productDisplay .product_listprice b {
+      font-size: 12px;  
+    }
+  
+    /* Our Price */
+    table.v65-productDisplay .product_productprice,
+    table.v65-productDisplay .product_productprice b {
+      font-size: 12px;
+    }
+  
+    /* Sale Price */
+    table.v65-productDisplay .product_saleprice,
+    table.v65-productDisplay .product_saleprice b {
+      font-size: 12px;
+    }
+  
+    /* Deal Price */
+    table.v65-productDisplay .product_dealprice {
+      font-size: 12px;  
+    }
+  }
+  
+  /* custom css */
+  .home-category
+  {	width:100%;
+      float:left;
+      padding:20px 0;
+  }
+  .home-category ul
+  {	margin:0 -10px;
+      padding:0;
+  }
+  .home-category ul li
+  {	width:25%;
+      float:left;
+      padding:0 10px;
+      list-style:none;
+  }
+  .home-category ul li:hover img
+  {	opacity:0.8;
+  }
+  .amazing-product-main
+  {	  width:100%;
+      float:left;
+  }
+  .amazing-product-main h2
+  {	  font-size:25px;
+      color:#282828;
+      font-family: 'Ciutadella-Regular';
+      background:url(../images/template/amazing-product-border.jpg) repeat-x left center;
+      font-weight:normal;
+      text-align:center;
+      margin-bottom:30px;
+  }
+  .amazing-product-main h2 span
+  {	background:#fff;
+      padding:0 15px;
+      letter-spacing:1px;
+  }
+  .amazing-product
+  {	  width:23%;
+      float:left;
+      padding: 0 0 9px 0;
+      margin:0 1% 20px 1%;
+      border: 0 !important;
+      border-radius: 15px !important;
+      box-shadow: .3px .3px 20px #e6e2e2;
+  }
+  .amazing-product-img
+  {	display: table-cell;
+      height: 205px !important;
+      overflow: hidden;
+      text-align: center;
+      vertical-align: middle;
+      width: 800px !important;
+  }
+  .amazing-product a
+  {	text-align:center;
+      display:block;
+      text-transform:uppercase;
+      font-size:16px;
+      font-weight:normal;
+      color:#505050;
+      font-family: 'Ciutadella-Regular';
+  }
+  
+  .amazing-product a:hover
+  {	color:#028b79;
+  }
+  .sale-banner {
+      float: left;
+      width: 100%;
+      padding-bottom:30px;
+  }
+  .sale-banner h2
+  {	font-size:30px;
+      color:#282828;
+      font-weight:normal;
+      margin:0;
+      padding:17px 0 30px;
+      letter-spacing:1px;
+      text-align:center;
+      font-family: 'Ciutadella-Regular';	
+  }
+  
+  .featured-title
+  {	background:url(../images/template/feature-title-bg.jpg) repeat-x left center;
+      clear:both;
+      margin:0 0 25px;
+      text-align:center;
+  }
+  .featured-title span
+  {	background:#fff;
+      font-size:30px;
+      color:#282828;
+      text-transform:uppercase;
+      padding:0 15px;
+  }
+  .v-product-grid 
+  {	margin-left:-1%;
+      margin-right:-1%;
+  }
+  .v-product-grid .v-product
+  {	width:23%;
+      float:left;
+      border:solid 1px #dcdcdc;
+      margin:0 1%;
+      text-align:center;
+  }
+  
+  @media screen and (max-width: 767px)
+  {
+  .home-category ul li
+  {	width:50%;
+      margin-bottom:20px;
+      text-align:center;
+  }
+  .amazing-product-main h2
+  {	font-size:22px;
+  }
+  .amazing-product
+  {	width:31%;
+  }
+  .sale-banner h2
+  {	font-size:22px;
+  }
+  }
+  @media screen and (max-width: 600px)
+  {
+  .amazing-product
+  {	width:48%;
+  }	
+  .sale-banner h2
+  {	font-size:18px;
+  }
+  }
+  
+  @media screen and (max-width: 479px)
+  {
+  .home-category ul li
+  {	width:100%;
+  }
+  .amazing-product
+  {	width:98%;
+  }	
+  }
