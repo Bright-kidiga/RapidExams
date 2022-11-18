@@ -9,13 +9,13 @@
 <meta name="description" content="">
 <meta id="v65-layout-mode" data-cart="storedot" data-checkout="storedot" data-use-simplified-checkout="true">
 <meta id="v65-logo-dimensions" data-height="80" data-width="221">
-<link rel="stylesheet" href="main.css">
-<link href="imports.css" rel="stylesheet">
-<link href="component.css" rel="stylesheet">
+<link rel="stylesheet" href="/v/vspfiles/templates/qeretail/css/main.css">
+<link href="/v/vspfiles/templates/qeretail/css/imports.css" rel="stylesheet">
+<link href="/v/vspfiles/templates/qeretail/css/push-menu/component.css" rel="stylesheet">
 <div id="if_homepage">
-  <link href="homepage.css" rel="stylesheet">
+  <link href="/v/vspfiles/templates/qeretail/css/homepage.css" rel="stylesheet">
 </div>
-<script src="design-toolkit_min.js"></script>
+<script src="/v/vspfiles/templates/qeretail/js/design-toolkit_min.js"></script>
 <script>DTK.loadCSS("qeretail");</script>
 
 <!--[if lt IE 9]>
@@ -160,11 +160,11 @@ setTimeout(function(){
           <div class="right ghost">
            <!--left header-->
             <span class="locations  hidden-xs hidden-sm ghost__content">
-              <img src="mail.svg" alt="Call" class="mail">
+              <img src="/v/vspfiles/templates/qeretail/images/icons/mail.svg" alt="Call" class="mail">
               info@gmail.com
             </span>
             <span class="locations hidden-xs hidden-sm ghost__content">
-              <img src="location.svg" alt="Call" class="location">
+              <img src="/v/vspfiles/templates/qeretail/images/icons/location.svg" alt="location" class="location">
               Pontiac CT
             </span>
            </div>
@@ -172,13 +172,13 @@ setTimeout(function(){
           <div class="left">
             <div class="socials-div hidden-xs hidden-sm ghost__content">
             <div class="toll">
-              <span class="tollfree">Toll-free<img src="call-icon.svg" alt="Call" class="call-img"><strong>877-747-8378</strong></span>
+              <span class="tollfree">Toll-free<img src="/v/vspfiles/templates/qeretail/images/icons/call-icon.svg" alt="Call" class="call-img"><strong>877-747-8378</strong></span>
             </div>
             <!--add links-->
               <span class="socials hidden-xs hidden-sm ghost__content">
-                <img src="twitter.svg" alt="Call" class="twitter">
-                <img src="facebook.svg" alt="Call" class="facebook">
-                <img src="instagram.svg" alt="Call" class="instagram">
+                <img src="/v/vspfiles/templates/qeretail/images/icons/twitter.svg" alt="Call" class="twitter">
+                <img src="/v/vspfiles/templates/qeretail/images/icons/facebook.svg" alt="Call" class="facebook">
+                <img src="/v/vspfiles/templates/qeretail/images/icons/instagram.svg" alt="Call" class="instagram">
               </span>
             </div>
             
@@ -193,8 +193,8 @@ setTimeout(function(){
             <div class="navbar-header ghost__content">
               <button type="button" id="showLeftPush" class="navbar-toggle" data-toggle="collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
             </div>
-            <div class="logo ghost__content hidden-xs hidden-sm">
-              <div id="display_homepage_title" class="logo"><img src="logo-nobg.png" alt="Call" class="img"><a href="/" title=""></a></div>
+            <div class="logo ghost__content">
+              <div id="display_homepage_title" class="logo"><img src="/v/vspfiles/templates/qeretail_2/images/template/footer-logo.png" alt="Call" class="img"><a href="/" title=""></a></div>
             </div>
           </div>
         </div>
@@ -204,7 +204,7 @@ setTimeout(function(){
             <form class='form-inline hidden-xs hidden-sm ghost__content' action='/SearchResults.asp' method='get' name='SearchBoxForm' role='search'>
               <div class='form-group'>
                 <input type='text' name='Search' class='search-popout__input' placeholder='Search...'>
-                <button type='submit' name='Submit' class='btn btn-xs btn-primary search-popout__submit'></button>
+                <button type='submit' name='Submit' class='btn btn-xs search-popout__submit'><img src= "/v/vspfiles/templates/qeretail/images/icons/search.svg"></button>
               </div>
             </form>
           </div>
@@ -213,12 +213,12 @@ setTimeout(function(){
           <div class="sitetools hidden-xs hidden-sm ghost__content"> 
             <a href="/myaccount.asp" class="sitetools__item myaccount-link" title="My Account"></a>
             <span class="icon icon-account">
-             <img src="acc.svg" alt="acc" class="acc-img">
+             <img src="/v/vspfiles/templates/qeretail/images/icons/acc.svg" alt="acc" class="acc-img">
             </span>
           </div>
            <div class="cart-div">
               <!--cart icon-->
-              <div class="cart-summary hidden-xs hidden-sm ghost__content"> <a href="https://www.rapidexams.com/shoppingcart.asp"><img src="cart.svg" class="cart-img" alt="Cart"><span data-v-observable="cart-count" class="cart-count">0</span> </a> </div>
+              <div class="cart-summary ghost__content"> <a href="https://www.rapidexams.com/shoppingcart.asp"><img src="/v/vspfiles/templates/qeretail/images/icons/cart.svg" class="cart-img" alt="Cart"><span data-v-observable="cart-count" class="cart-count">0</span> </a> </div>
            </div>
         </div>
           </div>
@@ -231,12 +231,7 @@ setTimeout(function(){
     </div>
 	<div class="write_re_btn mobile"><a href="/Articles.asp?ID=258">Write a Review</a></div>
       <!--search button mobile div-->
-     <div class="search-mobile">
-    <form class="form-inline" action="/SearchResults.asp" method="get" name="SearchBoxForm" role="search">
-      <div class="form-group">
-        <input type="text" name="Search" class="search-mobile__input" placeholder="Search...">
-        <button type="submit" name="Submit" class="btn btn-xs btn-primary search-mobile__submit">Go!</button>
-      </div>
+  
     </form>
   </div>
   </header>

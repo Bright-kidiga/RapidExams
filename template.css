@@ -174,6 +174,7 @@ h6,
 }
 
 #display_homepage_title a {
+	background:url(../images/template/logo_new.png) no-repeat center;
 	display: block;
 	min-width: 240px;
 	height: 100%;
@@ -717,7 +718,7 @@ div.AuthorizeNetSeal {
 	margin-right: 0;
 	text-indent: 5px;
 	height: 20px;
-	width: 570px;
+	width: 530px;
 	font-size: 14px;
 	background: #f0f0f0;
 	border-radius: 20px;
@@ -729,14 +730,15 @@ div.AuthorizeNetSeal {
 }
 
 .search-popout__submit {
+	background-color: #f0f0f0;
 	display: inline-block;
 	vertical-align: middle !important;
+	align-items: center;
 	height: 30px;
 	width: 30px;
 	padding: 0;
 	padding-right: 8px;
-	margin-left: -7px;
-	background: url(search.svg) no-repeat left !important;
+	margin-left: 25px;
 	border: 0;
 }
 .sitetools {
@@ -1041,7 +1043,7 @@ div.AuthorizeNetSeal {
 
 .btn.btn-primary:hover,
 #content_area .deal-buy-now a:hover {
-	background: #00aada;
+	background: #f0f0f0;
 }
 
 .popover.right>.arrow {

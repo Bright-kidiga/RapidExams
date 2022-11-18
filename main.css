@@ -3381,7 +3381,7 @@ html {
     position: relative;
     min-height: 50px;
     margin-bottom: 20px;
-    /* border: 1px solid transparent;*/ } 
+  }
     .navbar:before, .navbar:after {
       content: " ";
       display: table; }
@@ -3501,7 +3501,7 @@ html {
     background-image: none;
     background: none !important;
     border: 1px solid transparent;
-    border-radius: 0; }
+    border-radius: 5px; }
     .navbar-toggle:focus {
       outline: 0; }
     .navbar-toggle .icon-bar {
@@ -3613,7 +3613,7 @@ html {
   
   .navbar-default {
     background-color: white;
-    border-color: #e0e0e0; }
+   }
     .navbar-default .navbar-brand {
       color: black; }
       .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
